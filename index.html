@@ -9,5 +9,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      function checkWebGLSupport() {
+        try {
+          var canvas = document.createElement('canvas');
+          return !!window.WebGLRenderingContext && (
+            canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
+          );
+        } catch (e) {
+          return false;
+        }
+      }
+    
+      // Check WebGL support and display alert if disabled
+      window.onload = function() {
+        if (!checkWebGLSupport()) {
+          alert("WebGL is not enabled in your browser. I use 3D models in my portfolio, so please enable WebGL in your browser.");
+        }
+      };
+    </script>
   </body>
 </html>
