@@ -83,14 +83,6 @@ import {
       icon: django,
     },
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "C",
       icon: c,
     },
@@ -131,24 +123,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
-    },
-    {
-      name: "HuggingFace",
-      icon: huggingface,
-    },
-    {
-      name: "Sqlite",
-      icon: sqlite,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
     },
   ];
   
