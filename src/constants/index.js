@@ -35,6 +35,7 @@ import {
     mysql,
     net,
     datainference,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -214,25 +215,25 @@ import {
       source_code_link: "https://github.com/romeo-yenni/rhombus-ai",
     },
     {
-      name: "Job IT",
+      name: "My Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The website you are currently looking at! I build this portfolio to show off my skills and experience. Built using React 3 Fibre, a 3JS library for React.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "3JS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/romeo-yenni/nikolagopcevic",
     },
     {
       name: "Trip Guide",
