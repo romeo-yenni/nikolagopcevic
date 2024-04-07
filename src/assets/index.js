@@ -42,6 +42,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import datainference from "./datainference.png";
 import portfolio from "./portfolio.png";
+import modelimage from "./modelimage.jpeg";
 
 export {
   logo,
@@ -84,5 +85,6 @@ export {
   mysql,
   net,
   datainference,
-  portfolio
+  portfolio,
+  modelimage,
 };

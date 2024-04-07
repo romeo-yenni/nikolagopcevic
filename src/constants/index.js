@@ -36,6 +36,7 @@ import {
     net,
     datainference,
     portfolio,
+    modelimage,
   } from "../assets";
   
   export const navLinks = [
@@ -236,24 +237,24 @@ import {
       source_code_link: "https://github.com/romeo-yenni/nikolagopcevic",
     },
     {
-      name: "Trip Guide",
+      name: "Model Harbor",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "*WORK IN PROGRESS* A web platform that lets users upload the 3D models and view them in browser. Future features include adding backend for storage.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "3JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "WebGL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: modelimage,
       source_code_link: "https://github.com/",
     },
   ];
