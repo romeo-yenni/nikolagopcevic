@@ -173,7 +173,7 @@ import {
     {
       name: "Data Inference",
       description:
-        "A web based platform the solves to frustrating problem of pandas data inference. It takes in CSv files and algorithmically determins column data types.",
+        "A web based platform the solves to frustrating problem of pandas data inference. It takes in CSV files and algorithmically determins column data types.",
       tags: [
         {
           name: "react",
