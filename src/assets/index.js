@@ -26,15 +26,17 @@ import c from "./tech/c.png";
 import django from "./tech/django.png";
 import bash from "./tech/bash.png";
 import huggingface from "./tech/huggingface.png";
-import sqlite from "./tech/sqlite.png"
+import sqlite from "./tech/sqlite.png";
 import mysql from "./tech/mysql.png";
 import net from "./tech/net.png";
+import golang from "./tech/golang.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import fugro from "./company/fugro.png";
+import millcrest from "./company/millcrest.png";
 import uwa from "./company/uwa.png";
 
 import carrent from "./carrent.png";
@@ -87,4 +89,6 @@ export {
   datainference,
   portfolio,
   modelimage,
+  millcrest,
+  golang,
 };
