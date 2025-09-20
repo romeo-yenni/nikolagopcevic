@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import internet from "./internet.png";
+import youtube from "./youtube.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,6 +32,8 @@ import sqlite from "./tech/sqlite.png";
 import mysql from "./tech/mysql.png";
 import net from "./tech/net.png";
 import golang from "./tech/golang.png";
+import vue from "./tech/Vue.png";
+import postgres from "./tech/postgres.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -38,6 +42,7 @@ import tesla from "./company/tesla.png";
 import fugro from "./company/fugro.png";
 import millcrest from "./company/millcrest.png";
 import uwa from "./company/uwa.png";
+import veracio from "./company/veracio_logo.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,8 +50,13 @@ import tripguide from "./tripguide.png";
 import datainference from "./datainference.png";
 import portfolio from "./portfolio.png";
 import modelimage from "./modelimage.jpeg";
+import truprobe from "./truprobe.png";
+import tytonai from "./tytonai.png";
 
 export {
+  internet,
+  tytonai,
+  truprobe,
   logo,
   backend,
   creator,
@@ -70,6 +80,7 @@ export {
   threejs,
   meta,
   shopify,
+  youtube,
   starbucks,
   tesla,
   carrent,
@@ -91,4 +102,7 @@ export {
   modelimage,
   millcrest,
   golang,
+  veracio,
+  vue,
+  postgres,
 };

@@ -39,6 +39,11 @@ import {
   modelimage,
   millcrest,
   golang,
+  veracio,
+  vue,
+  postgres,
+  truprobe,
+  tytonai,
 } from "../assets";
 
 export const navLinks = [
@@ -77,20 +82,20 @@ const services = [
 
 const technologies = [
   {
+    name: "Vue",
+    icon: vue,
+  },
+  {
     name: "Python",
     icon: python,
   },
   {
-    name: "Django",
-    icon: django,
+    name: "Postgres",
+    icon: postgres,
   },
   {
     name: "C",
     icon: c,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
   },
   {
     name: "C#",
@@ -117,10 +122,6 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "Bash",
-    icon: bash,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -133,10 +134,23 @@ const technologies = [
 const experiences = [
   {
     title: "Full-stack Software Engineer",
+    company_name: "Veracio",
+    icon: veracio,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - Present",
+    points: [
+      "Led the development of an industry-leading drilling management platform, Strata Geo. Envisioned with microservices-based architecture from scratch,",
+      "I built scalable backend services and APIs to support multiple applications, ensuring smooth integration and high availability.",
+      "Organized the creation of a secure, centralised user authentication system, enabling seamless access management across the platform.",
+      "Delivered the vision for the Truprobe app, developing both frontend and backend, ensuring rapid deployment and iteration through CI/CD pipelines.",
+    ],
+  },
+  {
+    title: "Full-stack Software Engineer",
     company_name: "Millcrest Environmental Technology",
     icon: millcrest,
     iconBg: "#E6DEDD",
-    date: "June 2024 - Present",
+    date: "June 2024 - December 2024",
     points: [
       'Developed "TytonAI", an advanced artificial intelligence platform that specializes in delivering intelligent automation, data-driven insights, and predictive analytics for environmental monitoring.',
       "Utilized React for dynamic and responsive front-end interfaces, improving user experience and application performance",
@@ -185,25 +199,26 @@ const experiences = [
 
 const projects = [
   {
-    name: "Data Inference",
+    name: "TruProbe",
     description:
-      "A web based platform the solves to frustrating problem of pandas data inference. It takes in CSV files and algorithmically determins column data types.",
+      "Veracio's unified cloud platform for downhole survey data. Enabled secure single sign-on, real-time field-to-cloud sync, and instant survey uploads. Delivered 3D visualization and analytics to reduce errors, save time, and support confident decision-making.",
     tags: [
       {
-        name: "react",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "django",
+        name: "3JS",
         color: "green-text-gradient",
       },
       {
-        name: "data",
+        name: "visualization",
         color: "pink-text-gradient",
       },
     ],
-    image: datainference,
+    image: truprobe,
     source_code_link: "https://github.com/romeo-yenni/rhombus-ai",
+    youtube: "https://www.youtube.com/watch?v=cZeQe1feOpU",
   },
   {
     name: "My Portfolio",
@@ -227,25 +242,26 @@ const projects = [
     source_code_link: "https://github.com/romeo-yenni/nikolagopcevic",
   },
   {
-    name: "Model Harbor",
+    name: "Tyton AI",
     description:
-      "*WORK IN PROGRESS* A web platform that lets users upload the 3D models and view them in browser. Future features include adding backend for storage.",
+      "Powerful, web-based platform that brings machine learning within reach of ecologists, enabling accurate, cost-effective vegetation and landscape classification at scale.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "3JS",
+        name: "golang",
         color: "green-text-gradient",
       },
       {
-        name: "WebGL",
+        name: "AI",
         color: "pink-text-gradient",
       },
     ],
-    image: modelimage,
-    source_code_link: "https://github.com/",
+    image: tytonai,
+    source_code_link: "https://tytonei.com/tytonai/",
+    internet: "aa",
   },
 ];
 
